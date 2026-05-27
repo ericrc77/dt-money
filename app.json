@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "DT Money Mobile",
+    "slug": "dt-money-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#121214"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#121214"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "transactions": [
+    {
+      "id": "tx-001",
+      "description": "Projeto mobile",
+      "amount": 12000,
+      "category": "Venda",
+      "type": "income",
+      "date": "2026-05-24T13:00:00.000Z",
+      "createdAt": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "id": "tx-002",
+      "description": "Aluguel do escritorio",
+      "amount": 2500,
+      "category": "Casa",
+      "type": "outcome",
+      "date": "2026-05-23T16:30:00.000Z",
+      "createdAt": "2026-05-23T16:30:00.000Z"
+    },
+    {
+      "id": "tx-003",
+      "description": "Consultoria React",
+      "amount": 6500,
+      "category": "Freelance",
+      "type": "income",
+      "date": "2026-05-22T11:20:00.000Z",
+      "createdAt": "2026-05-22T11:20:00.000Z"
+    },
+    {
+      "id": "tx-004",
+      "description": "Assinatura de ferramentas",
+      "amount": 320,
+      "category": "Software",
+      "type": "outcome",
+      "date": "2026-05-21T08:45:00.000Z",
+      "createdAt": "2026-05-21T08:45:00.000Z"
+    }
+  ]
+}
