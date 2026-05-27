@@ -5,7 +5,7 @@ const tsParser = require('@typescript-eslint/parser')
 
 module.exports = [
   {
-    ignores: ['dist', 'node_modules', 'eslint.config.js'],
+    ignores: ['dist', 'node_modules', 'eslint.config.js', 'babel.config.js'],
   },
   js.configs.recommended,
   {
@@ -33,6 +33,12 @@ module.exports = [
       ...reactHooks.configs.recommended.rules,
       '@typescript-eslint/no-empty-function': 'off',
       '@typescript-eslint/no-explicit-any': 'off',
+    },
+  },
+  {
+    files: ['**/*.d.ts'],
+    rules: {
+      '@typescript-eslint/no-empty-object-type': 'off',
     },
   },
 ]
